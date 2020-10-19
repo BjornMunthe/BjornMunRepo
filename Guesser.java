@@ -52,12 +52,12 @@ public class Guesser {
      */
     private String getReply() {
         String reply = System.console().readLine();
-            while(!reply.equals("T") && !reply.equals("F")){
+        while (!reply.equals("T") && !reply.equals("F")) {
             System.out.println("please answer T or F");
             reply = System.console().readLine();
-        }       
+        }
         return reply;
-        
+
     }
 
     private void doGuesses() {
