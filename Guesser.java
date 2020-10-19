@@ -21,6 +21,11 @@ public class Guesser {
 
     // Write the constructor below this line.
 
+    public Guesser(int l, int h){
+        this.low = l;
+        this.high = h;
+    }
+
     /*
      * Task 2. Complete the start() method, so that in the method body, you call
      * first the rules() method, next the doGuesses() method.
