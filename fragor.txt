@@ -1,0 +1,19 @@
+När använder man add respektive commit?
+
+Git add lägger till en fil i indexet i working tree.
+Git commit lägger till filerna som väntar i working tree till repositoryt man jobbar i.
+ 
+Vad är pull repektive push?
+
+git pull hämtar ett remote repository och lägger till de ändringar som gjorts till lokala branch.
+git push updaterar ett remote repository med de ändringar man gjort i sitt lokala repository
+ 
+När använder man log respektive status?
+
+git log visar en log över de commits man gjort tidigare.
+git status visar statusen på en working tree. Till exempel om man har filer som väntar på att bli
+commitade.
+
+Hur kan man formulera sig i sina commit-meddelanden?
+
+Kortfattat och tydligt visa på vad för typ av uppdatering man gjort. 
